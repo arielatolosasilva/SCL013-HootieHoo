@@ -10,8 +10,8 @@ const Inicio = () => {
   return (
     <Fragment>
       <div className={style.container}>
+        {ThemeSwitcher}
         <div>
-            {ThemeSwitcher}
           <Logo />
           <div>
             <Animated

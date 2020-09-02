@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from "react";
 import HeaderKids from "../Header/ChildrensHeader/Header";
-import together from '../../img/header/header-together.png'
-import puma from '../../img/header/header-puma.png'
+import together from "../../img/header/header-together.png";
+import puma from "../../img/header/header-puma.png";
 import Paragraph from "../Children/Paragraph";
 import { Link } from "react-router-dom";
-import mini1 from '../../assets/img/minicolorear1.png'
-import mini2 from '../../assets/img/minicolorear2.png'
-import bRegresar from '../../assets/img/botonregresar.png'
-import style from '../PaintChildren/MenuPaint.module.css'
+import mini1 from "../../assets/img/minicolorear1.png";
+import mini2 from "../../assets/img/minicolorear2.png";
+import bRegresar from "../../assets/img/botonregresar.png";
+import style from "../PaintChildren/MenuPaint.module.css";
 
 export const BackButton = () => {
     return (
@@ -47,4 +47,4 @@ const MenuPaint = () => {
     )
 }
 
-export default MenuPaint
+export default MenuPaint;

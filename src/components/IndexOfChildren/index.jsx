@@ -22,14 +22,13 @@ const CardButton = (props) => {
 };
 
 const IndexOfChildren = () => {
+
   return (
     <Fragment>
       <div className='divContainer'>
           <HeaderKids leftImage={Girl} rightImage={Boy} />
           <Paragraph paragraph={`Aprendamos jugando`} />
           <div className='containerCardButtons'>
-
-         
             <Link to='/trivia'>
                 <CardButton img={Jabier} />
             </Link>
@@ -46,7 +45,7 @@ const IndexOfChildren = () => {
           </div>
           <Link to='/'>
             
-          <img className='bBack' src={bRegresar}></img>
+            <img className='bBack' src={bRegresar}></img>
          
           </Link>
       </div>

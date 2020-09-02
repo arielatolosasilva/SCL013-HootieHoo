@@ -16,7 +16,7 @@ and (max-device-width : 658px)
 
     .imageContainer {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 80%;
         margin-block-start: -3em;
         margin-inline-start: 2em;

@@ -8,7 +8,6 @@ import Questions from "../GameChild/Quiz";
 import bRegresar from '../../assets/img/botonregresar.png'
 import "./Children.css";
 
-
 const Children = () => {
 
   return (
