@@ -45,7 +45,7 @@ Gamificación: Trivia, modal de reconocimiento o incentivo para continuar, dibuj
 
 Recorrido por nuestro prototipo de alta fidelidad en Figma [aquí](https://www.figma.com/proto/Ae3mgLGmtvSdAmmdYN8nzp/Covid-19?node-id=194%3A37&viewport=-214%2C1779%2C0.27106305956840515&scaling=min-zoom)
 
-Ingresa a nuestra app web desde [aquí]()
+Ingresa a nuestra app web desde [aquí](https://ganemosle-al-virus.web.app/)
 
 
 #Herramientas utilizadas 
