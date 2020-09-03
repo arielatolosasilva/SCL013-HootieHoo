@@ -4,12 +4,14 @@ import Logo from "../Logo/Logo";
 import { Animated } from "react-animated-css";
 import style from "../Inicio/Inicio.module.css";
 import useThemeSwitcher from '../../hooks/useThemeSwitcher'
+import couple from '../../assets/img/pareja.png'
+import puma from '../../assets/img/personaje.png'
 
 const Inicio = () => {
    const ThemeSwitcher = useThemeSwitcher();
   return (
     <Fragment>
-      <div className={style.container}>
+      <div className={style.container1}>
         {ThemeSwitcher}
         <div>
           <Logo />
@@ -31,14 +33,14 @@ const Inicio = () => {
             </div>
             <div className={style.bFather}>
               <Link to="/Adulto">
-                <button title="Adulto" className={style.bInit}>
+                <button title="Adulto" className={style.bInit}><img className={style.imCouple}src={couple}></img>
                   {" "}
                   Responsable del niñ@{" "}
                 </button>
               </Link>
               <Link to="/Niños">
                 
-                <button title="Niños" className={`${style.bInit} ${style.bInit2}` }>
+                <button title="Niños" className={style.bInit2} ><img className={style.imPuma} src={puma}></img>
                   {" "}
                   Soy niñ@{" "}
                 </button>

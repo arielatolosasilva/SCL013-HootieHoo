@@ -8,3 +8,10 @@
     height: 14h;
     margin-top: 1rem;
 }
+@media only screen and (min-device-width: 1440px)  {
+    .lS {
+        width: 24vw;
+        height: 14vh;
+        margin-top: 1rem;
+    }
+}
